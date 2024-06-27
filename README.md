@@ -85,17 +85,12 @@ ColorSlider is fully documented [here](https://gizmosachin.github.io/ColorSlider
 
 ## Installation
 
-### [CocoaPods](https://cocoapods.org/)
+### [Swift Package Manager]
 
-``` ruby
-platform :ios, '9.0'
-pod 'ColorSlider', '~> 4.4'
-```
-
-### [Carthage](https://github.com/Carthage/Carthage)
-
-``` ruby
-github "gizmosachin/ColorSlider" >= 4.4
+``` swift
+dependencies: [
+    .package(url: "https://github.com/kuchhadiyaa/ColorSlider.git", .upToNextMajor(from: "5.9.1"))
+    ]
 ```
 
 ## Version Compatibility
